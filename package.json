@@ -1,0 +1,22 @@
+{
+  "name": "node-imagify-api",
+  "version": "0.0.1",
+  "description": "node js wrapper for imagify API (https://imagify.io/docs/api/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemgui/node-imagify-api.git"
+  },
+  "keywords": [
+    "imagify"
+  ],
+  "author": "hemgui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemgui/node-imagify-api/issues"
+  },
+  "homepage": "https://github.com/hemgui/node-imagify-api"
+}
