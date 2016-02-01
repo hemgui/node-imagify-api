@@ -2,10 +2,11 @@
 node js wrapper for imagify API https://imagify.io/docs/api/
 
 ##Install 
-
-TODO
+todo
 
 ##Usage
+todo
 
 ##Test
+todo
 
