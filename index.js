@@ -1,7 +1,7 @@
 var request = require('request');
 var fs = require('fs');
-
-exports.uploadImage = function(token,options,image) {
+				
+exports.uploadImage = function(token,options,image, callback) {
 
   var formData = {
   	data: JSON.stringify(options),
@@ -15,12 +15,11 @@ exports.uploadImage = function(token,options,image) {
     }
   , function (error, response, body) {
       // body is the decompressed response body
-      console.log('server encoded the data as: ' + (response.headers['content-encoding'] || 'identity'))
-      console.log('the decoded data is: ' + body)
+      //console.log('the decoded data is: ' + body);
     }
   ).on('data', function(data) {
     // decompressed data as it is received
-    console.log('decoded chunk: ' + data);
-    return data;
+    //console.log('decoded chunk: ' + data);
+    callback(JSON.parse(data));
   })
 };
