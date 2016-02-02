@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/hemgui/node-imagify-api/issues"
   },
-  "homepage": "https://github.com/hemgui/node-imagify-api"
+  "homepage": "https://github.com/hemgui/node-imagify-api",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
 }
