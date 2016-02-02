@@ -1,6 +1,6 @@
 {
   "name": "node-imagify-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node js wrapper for imagify API (https://imagify.io/docs/api/)",
   "main": "index.js",
   "scripts": {
